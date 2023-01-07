@@ -1,0 +1,56 @@
+.layout-container {
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: var(--blackbg);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.layout-section {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.socialmedia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.socialmedia-container h3 {
+  margin: 0;
+  font-size: 22px;
+  width: 105%;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1200px) {
+  .layout-section {
+    width: 80%;
+  }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px) {
+  .layout-section {
+    width: 80%;
+  }
+}

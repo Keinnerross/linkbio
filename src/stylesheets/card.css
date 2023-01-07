@@ -1,0 +1,40 @@
+.card-container {
+  background-color: var(--secundary);
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card-container a {
+  gap: 10px;
+  display: flex;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.card-container:hover {
+  transform: scale(1.035);
+  background-color: #26333e;
+}
+
+.text-card h4 {
+  margin: 0;
+}
+
+.text-card span {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1200px) {
+  .card-container:hover {
+    transform: none;
+  }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px) {
+  .card-container:hover {
+    transform: none;
+  }
+}
