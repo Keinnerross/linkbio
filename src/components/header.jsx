@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <span>KeinnerRoss</span>
+      <span>Keinner Ross</span>
       <span>#Developer</span>
     </header>
   );

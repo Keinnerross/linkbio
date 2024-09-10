@@ -5,10 +5,14 @@
   padding: 10px;
   cursor: pointer;
   transition: 0.2s;
+
+  
 }
 .card-container a {
-  gap: 10px;
+  gap: 15px;
   display: flex;
+  align-items: center;
+
   color: var(--textColor);
   text-decoration: none;
 }
