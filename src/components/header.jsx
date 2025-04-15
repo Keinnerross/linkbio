@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <header>
-      <span>Keinner Ross</span>
-      <span>#Developer</span>
+      <span>KeinnerRoss</span>
+      <span>Web Developer</span>
     </header>
   );
 };
