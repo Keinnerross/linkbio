@@ -39,7 +39,7 @@ const Layout = () => {
           </Card>
           <Card
             titleCard="Spartan Pomodoro"
-            descriptionCard="He desarrollado Spartan Pomodoro, la app para maximizar tu productividad al estilo Espartano"
+            descriptionCard="He desarrollado Spartan Pomodoro, la app para maximizar tu productividad al estilo espartano"
             url="https://www.spartanpomodoro.com/"
           >
             <GiSpartanHelmet size={iconSetting.size} />
